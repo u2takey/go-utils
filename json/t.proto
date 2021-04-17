@@ -1,0 +1,18 @@
+syntax = "proto3";
+package proto;
+
+
+message TE {
+    string A  = 1;
+    int64 B   = 2;
+    map<string,string> C = 3;
+    repeated int64 D = 4;
+}
+
+message T{
+    string A  = 1;
+    int64 B   = 2;
+    map<string,string> C = 3;
+    repeated int64 D = 4;
+    TE Extra = 5;
+}

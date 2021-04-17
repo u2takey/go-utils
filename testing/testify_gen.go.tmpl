@@ -1,0 +1,5 @@
+{{.CommentWithoutT "a"}}
+func (a *Assertions) {{.DocInfo.Name}}({{.Params}}) *Assertions {
+	a.R = append(a.R, a.A.{{.DocInfo.Name}}({{.ForwardedParams}}))
+    return a
+}
