@@ -17,7 +17,7 @@ require (
 	github.com/spf13/afero v1.2.2
 	github.com/stretchr/testify v1.5.1
 	golang.org/x/sys v0.1.0
-	golang.org/x/text v0.3.2 // indirect
+	golang.org/x/text v0.3.8 // indirect
 	golang.org/x/time v0.0.0-20190308202827-9d24e82272b4
 	sigs.k8s.io/yaml v1.2.0
 )
